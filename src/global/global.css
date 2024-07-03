@@ -1,0 +1,169 @@
+:root {
+    /* Light Theme Colors */
+
+    /* Background colors for various UI elements */
+    --orange-1: #fffcfc; /* App background - Used as the main background color across the app */
+    --orange-2: #fef8f7; /* Subtle background - Ideal for backgrounds of secondary containers like sidebars */
+    --orange-3: #fdebe8; /* Normal UI element background - Default background for buttons, inputs, etc. */
+    --orange-4: #ffddd6; /* Hovered UI element background - Indicates hover state for interactive elements */
+    --orange-5: #ffcec5; /* Active/Selected UI element background - Marks active or selected state of components */
+
+    /* Border and separator colors */
+    --orange-6: #fabeb3; /* Borders and separators for non-interactive elements like dividers */
+    --orange-7: #f1ab9e; /* Subtle borders for active elements and focus rings */
+    --orange-8: #e79182; /* Strong border for interactive elements e.g., on hover */
+
+    /* Solid background colors */
+    --orange-9: #db4e3b; /* Primary components background - Used for primary action buttons */
+    --orange-10: #cd3e2c; /* Hover state for solid backgrounds - Darker shade for hover states on primary components */
+
+    /* Text colors */
+    --orange-11: #ca3d2c; /* Low-contrast text - For less important text that doesn't require high visibility */
+    --orange-12: #5b271f; /* High-contrast text - Used for all high priority text for optimal readability */
+    
+    /* Additional UI colors for alerts and accents */
+    --orange-a1: #ff000003; /* Example: Very light alert overlay */
+    --orange-a2: #e0200008;
+    --orange-a3: #e9220017;
+    --orange-a4: #ff2c0029;
+    --orange-a5: #ff28003a;
+    --orange-a6: #ef25004c;
+    --orange-a7: #db230061;
+    --orange-a8: #cf1f007d;
+    --orange-a9: #d01900c4;
+    --orange-a10: #c31600d3;
+    --orange-a11: #bf1500d3;
+    --orange-a12: #440900e0; /* Example: Strong alert color for critical warnings */
+    
+    /* Contrast and surface colors for general UI use */
+    --orange-contrast: #fff; /* High contrast text color */
+    --orange-surface: #fef6f5cc; /* General UI surface color */
+    --orange-indicator: #db4e3b; /* Indicator color for sliders, progress bars */
+    --orange-track: #db4e3b; /* Track color for sliders, progress bars */
+
+    /* Gray scale for neutral toned UI components */
+    
+    /* Background colors for various UI elements */
+    --gray-1: #fcfcfd; /* Lightest gray for backgrounds */
+    --gray-2: #f9f9fb;
+    --gray-3: #eff0f3;
+    --gray-4: #e7e8ec;
+    --gray-5: #e0e1e6;
+
+    /* Border and separator colors */
+    --gray-6: #d8d9e0;
+    --gray-7: #cdced7;
+    --gray-8: #b9bbc6;
+
+    /* Solid background colors */
+    --gray-9: #8b8d98;
+    --gray-10: #80828d;
+
+    /* Text colors */
+    --gray-11: #62636c;
+    --gray-12: #1e1f24; /* Darkest gray for high contrast text */
+    
+    /* Additional UI colors for alerts and accents */
+    --gray-a1: #00005503;
+    --gray-a2: #00005506;
+    --gray-a3: #00104010;
+    --gray-a4: #000b3618;
+    --gray-a5: #0009321f;
+    --gray-a6: #00073527;
+    --gray-a7: #00063332;
+    --gray-a8: #00083046;
+    --gray-a9: #00051d74;
+    --gray-a10: #00051b7f;
+    --gray-a11: #0002119d;
+    --gray-a12: #000107e1;
+    
+    /* Contrast and surface colors for general UI use */
+    --gray-contrast: #FFFFFF;
+    --gray-surface: #ffffffcc;
+    --gray-indicator: #8b8d98;
+    --gray-track: #8b8d98;
+
+    /* Background */
+    --color-background: #fff; /* Default background color for light theme */
+}
+
+.dark-theme {
+    /* Overriding light theme colors for dark mode */
+    --orange-1: #160f0e;
+    --orange-2: #1e1513;
+    --orange-3: #371712;
+    --orange-4: #4c1710;
+    --orange-5: #5c1f16;
+    --orange-6: #6c2b22;
+    --orange-7: #843c31;
+    --orange-8: #aa4e40;
+    --orange-9: #db4e3b;
+    --orange-10: #cc402e;
+    --orange-11: #ff907c;
+    --orange-12: #fad4cd;
+  
+    --orange-a1: #e6000006;
+    --orange-a2: #fe5a360e;
+    --orange-a3: #fe371829;
+    --orange-a4: #fd290e40;
+    --orange-a5: #fd3d2151;
+    --orange-a6: #fe553e62;
+    --orange-a7: #fd69537c;
+    --orange-a8: #ff705aa4;
+    --orange-a9: #fe5842d9;
+    --orange-a10: #fe4c35c9;
+    --orange-a11: #ff907c;
+    --orange-a12: #ffd8d1fa;
+  
+    --orange-contrast: #fff;
+    --orange-surface: #2b191580;
+    --orange-indicator: #db4e3b;
+    --orange-track: #db4e3b;
+
+    --gray-1: #111113;
+    --gray-2: #19191b;
+    --gray-3: #222325;
+    --gray-4: #292a2e;
+    --gray-5: #303136;
+    --gray-6: #393a40;
+    --gray-7: #46484f;
+    --gray-8: #5f606a;
+    --gray-9: #6c6e79;
+    --gray-10: #797b86;
+    --gray-11: #b2b3bd;
+    --gray-12: #eeeef0;
+  
+    --gray-a1: #1111bb03;
+    --gray-a2: #cbcbf90b;
+    --gray-a3: #d6e2f916;
+    --gray-a4: #d1d9f920;
+    --gray-a5: #d7ddfd28;
+    --gray-a6: #d9defc33;
+    --gray-a7: #dae2fd43;
+    --gray-a8: #e0e3fd60;
+    --gray-a9: #e0e4fd70;
+    --gray-a10: #e3e7fd7e;
+    --gray-a11: #eff0feb9;
+    --gray-a12: #fdfdffef;
+  
+    --gray-contrast: #FFFFFF;
+    --gray-surface: rgba(0, 0, 0, 0.05);
+    --gray-indicator: #6c6e79;
+    --gray-track: #6c6e79;
+
+    --color-background: #111;
+}
+
+/* Default styling for the body */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 0.875rem; /* Equals 14px if html font-size is 16px */
+    color: var(--orange-12);
+    overflow-x: hidden;
+}
+
+/* Styling for Headings and Paragraphs */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0; /* Remove default margins for a clean and uniform typography layout */
+}
